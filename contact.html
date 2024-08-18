@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Pessoal</title>
+    <link rel="stylesheet" href = "css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav id="navigation">
+            <ul id="links">
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="skills.html">Formações</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <!--Este botão será responsável pela troca de temas da página-->
+        <button class="submitBtn" id="themeSwitcher">Alternar tema escuro/claro</button>
+    </header>
+    <!--Definindo o tema inicial da página e armazenando na variavel data.theme-->
+    <main data-theme="light" id="section-contact">
+        <h1>Fale comigo</h1><br>
+        <p>Você pode me contatar através dos links no rodapé ou através do formulário abaixo:</p></h2>
+
+        <h2>Formulário</h2>
+        <form>
+            <label for="name">Nome: </label>
+            <input type="text" id="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email"><br><br>
+
+            <label for="mensage">Deixe sua mensagem:</label><br>
+            <textarea cols="50" rows="10"></textarea><br><br>
+
+            <button class="submitBtn"type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <ul id="links-footer">
+            <li><a href="" class="footer-links">Instagram</a></li>
+            <li><a href="" class="footer-links">Linkedin</a></li>
+            <li><a href="" class="footer-links">GitHub</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

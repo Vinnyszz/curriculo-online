@@ -1,0 +1,192 @@
+/* Importando a fonte da página do google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Definindo variáveis para as cores principais e iniciais da página(tema claro)*/
+:root {
+    --background-color: #ffffff;
+    --text-color: #333333;
+    --main-color: #FF4C4C;
+    --highlight-color: #E5E5E5;
+    --buttons-color: #b30000;
+}
+
+/* Foco na página Index.HTML, sendo também a base para o resto da página*/
+body {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    
+}
+#navigation{
+    width: 45rem;
+}
+#links {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    height: 4rem;
+    background-color: var(--background-color);
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+    box-shadow: 1rem 0.7rem 1rem rgb(179, 0, 0);
+}
+
+#links > li > a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight:600;
+}
+#links > li > a:hover {
+    color: var(--main-color)
+}
+#themeSwitcher {
+    float: right;
+    margin-top:1rem;
+    margin-right: 1.5rem;
+}
+main {
+    background-color: var(--background-color);
+    padding-top: 5rem;
+    padding-left: 3rem;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+
+}
+#resume {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+#personal-image {
+    float: right;
+    max-width: 30rem;
+    min-width: 5rem;
+    height: auto;
+    margin-right: 25%;
+    margin-top: 5rem;
+    border-radius: 5%;
+}
+#presentation {
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+#presentation > h1 {
+    font-size: 4.5rem;
+}
+#presentation > h2 {
+    font-size: 1.5rem;
+}
+#presentation > p {
+    margin-top: 1.2rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+#presentation-more {
+    width: 55%;
+    margin-left: 5rem;
+}
+#presentation-more > p {
+    margin-top: 0.5rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+#links-footer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    flex-direction: column;
+}
+#links-footer > li {
+    list-style: none;
+}
+.footer-links  {
+    text-decoration: none;
+    color:var(--text-color);
+}
+.footer-links:hover  {
+    color:var(--background-color);
+}
+
+
+/* Foco na página Fomações (skills.html)*/
+.list-itens > li {
+    margin-bottom: .3rem;
+}
+#skills-asside {
+    float: right;
+    margin-right: 20rem;
+}
+#skills-section {
+    margin-left: 4rem;
+}
+
+/* Foco na página Portfólio (portfolio.html)*/
+#section-portfolio {
+    padding-bottom: 3rem;
+}
+#video-logitech {
+    width: 30rem;
+    border-radius: 2rem;
+}
+#list-portfolio {
+    flex-wrap: wrap;
+    list-style: none;
+    display: flex;
+    gap: 5rem 0;
+    justify-content: space-around;
+}
+
+.list-portfolio-item > img {
+    width: 35rem;
+    border-radius: 2rem;
+}
+.sublist-itens {
+    list-style: none;
+}
+.sublist-itens > li{
+    margin-top: 0.3rem;
+}
+.sublist-itens > li > a {
+    text-decoration: none;
+    color:var(--text-color)
+}
+.sublist-itens > li > a:hover {
+    color:var(--main-color)
+}
+
+/* Foco na página Contato (contact.html)*/
+#section-contact > h2{
+    margin-top: 15rem;
+    margin-bottom: 2rem;
+}
+.submitBtn {
+    padding:0.5rem 1.5rem;
+    border-radius: 1rem;
+    background-color: var(--background-color);
+    font-weight: 600;
+    border-color: var(--main-color);
+    border-width: 2px;
+    margin-bottom: 3rem;
+    color: var(--text-color)
+}
+.submitBtn:hover:hover {
+    background-color: var(--main-color);
+    color:var(--background-color)
+}

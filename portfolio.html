@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Pessoal</title>
+    <link rel="stylesheet" href = "css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav id="navigation">
+            <ul id="links">
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="skills.html">Formações</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <!--Este botão será responsável pela troca de temas da página-->
+        <button class="submitBtn" id="themeSwitcher">Alternar tema escuro/claro</button>
+    </header>
+    <!--Definindo o tema inicial da página e armazenando na variavel data.theme-->
+    <main data-theme="light">
+        <h1>Portfólio</h1>
+        <br><br>
+        <section id="section-portfolio">
+            <ul id="list-portfolio">
+                <li class="list-portfolio-item">
+                    <h3>Página Produto - Mouse Logitech</h3><br>
+                    <video id="video-logitech" src="video/2024-05-06 20-09-02.mkv" autoplay muted loop></video>
+                    <ul class="sublist-itens">
+                        <li>Teconologias Usadas: HTML & CSS</li>
+                        <li><a href="https://github.com/Vinnyszz/LandingPage-Logitech-Mouse">Link GitHub</a></li>
+                    </ul>
+                </li><br>
+                <li class="list-portfolio-item">
+                    <h3>Algoritmo Para Cadastro de Livros</h3><br>
+                    <img src="images/Captura de tela 2024-08-18 014446.png">
+                    <ul class="sublist-itens">
+                        <li>Teconologia Usada: Python</li>
+                        <li><a href="https://github.com/Vinnyszz/algoritmo-biblioteca-py">Link GitHub</a></li>
+                    </ul>
+                </li>
+                <li class="list-portfolio-item">
+                    <h3>Algoritmo para Cadastro de Tarefas</h3><br>
+                    <img src="images/cadastroTarefas.png">
+                    <ul class="sublist-itens">
+                        <li>Teconologias Usadas: HTML & JavaScript</li>
+                        <li><a href="https://github.com/Vinnyszz/cadastro-de-tarefas-js">Link GitHub</a></li>
+                    </ul>
+                </li>
+                <li class="list-portfolio-item">
+                    <h3>Agregador de Links</h3><br>
+                    <img src="images/agregador de links.png">
+                    <ul class="sublist-itens">
+                        <li>Teconologias Usadas: HTML & CSS</li>
+                        <li><a href="https://github.com/Vinnyszz/agregador-de-links">Link GitHub</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <ul id="links-footer">
+            <li><a href="" class="footer-links">Instagram</a></li>
+            <li><a href="" class="footer-links">Linkedin</a></li>
+            <li><a href="" class="footer-links">GitHub</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
